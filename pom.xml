@@ -10,4 +10,17 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+    <profiles>
+        <profile>
+            <id>SonarQube</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <sonar.host.url>
+                    http://localhost:9002
+                </sonar.host.url>
+            </properties>
+        </profile>
+    </profiles>
 </project>

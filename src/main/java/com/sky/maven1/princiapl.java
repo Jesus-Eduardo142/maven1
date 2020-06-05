@@ -10,5 +10,7 @@ package com.sky.maven1;
  * @author skylar
  */
 public class princiapl {
-    
+    public static void main(String[] args) {
+        System.err.println("Hola mundo");
+    }
 }
