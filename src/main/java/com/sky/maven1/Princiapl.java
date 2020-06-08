@@ -5,12 +5,15 @@
  */
 package com.sky.maven1;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 /**
  *
  * @author skylar
  */
-public class princiapl {
+public class Princiapl {
     public static void main(String[] args) {
-        System.err.println("Hola mundo");
+        Logger.getLogger(Princiapl.class.getName()).log(Level.INFO, "Hola mundo...");
     }
 }
